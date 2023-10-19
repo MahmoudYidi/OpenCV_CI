@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  opencvci:
+    image: opencvci
+    build:
+      context: .
+      dockerfile: ./Dockerfile
